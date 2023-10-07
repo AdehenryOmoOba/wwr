@@ -24,10 +24,10 @@ main section {
     height: 725px;
 }
 body {
-    background-color: faff00;
+    background-color: #faff00;
 }
 header {
-    background-color: faff00;
+    background-color: #faff00;
 }
 nav a:hover {
     background-color: #faff00;
