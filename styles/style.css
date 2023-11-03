@@ -133,6 +133,12 @@ nav a:hover {
     font-size: 2em;
     margin-top: 10px;
 }
+.blog-title{
+    font-family: 'IM Fell French Canon', serif, Arial;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
@@ -189,6 +195,35 @@ footer .social img{
 .icon {
     width: 80px;
     padding-top: 10px
+}
+.blog-item{
+    height: 25rem;
+    width: 98%;
+    margin-inline: auto;
+    background-color: #02a9ea50;
+    border-radius: 1.5rem;
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    margin-block: 2rem;
+}
+.blog-item:hover{
+    cursor: pointer;
+    background-color: #02a9ea80;
+}
+.blog-img{
+    height: 25rem;
+    border-radius: 2.5rem;
+}
+.blog-img img{
+    height: 100%;
+    border-radius: 1rem;
+}
+.blog-text{
+    flex: 1;
+    max-width: 50%;
+    overflow: hidden;
+    height: 20rem;
 }
 
 /* Responsiveness  */
